@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.DocumentFileActivity">
+
+   <!-- <com.google.android.material.tabs.TabLayout
+        android:id="@+id/xTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/xViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp">
+
+    </androidx.viewpager.widget.ViewPager>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/xRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/xBtnPdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pdf"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/xbtnWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="word"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/xBtnExcel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="excel"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/xBtnPpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ppt"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/xBtnOther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="other"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
